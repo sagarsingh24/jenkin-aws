@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <div className="footerOuterDiv">
-      Footer works
+      Footer works here
     </div>
   )
 }
