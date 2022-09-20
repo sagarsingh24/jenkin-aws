@@ -1,0 +1,18 @@
+/* .todoItemOuterDiv {
+display: flex;
+flex-direction: row;
+}
+ */
+.todoOuterDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.todoItemOuterDiv{
+    margin-left: 100px;
+}
+
+.footerOuterDiv{
+    margin-top: 450px;
+}
