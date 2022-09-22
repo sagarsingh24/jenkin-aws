@@ -11,7 +11,7 @@ pipeline {
         stage('kill existing port runnig with image name') {
             steps {
                 sh '''
-                  sudo docker stop $(docker ps -q --filter ancestor=git-todo )
+                  sudo docker stop $(sudo docker ps -q --filter ancestor=git-todo )
                 '''
             }
         }
